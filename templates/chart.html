@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content%}
+<section>
+<canvas id="myChart" width="400" height="400"></canvas>
+</section>
+<script src="{{url_for('static',filename='js/myCustomChart.js')}}"></script>
+{% endblock %}
